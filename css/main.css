@@ -189,82 +189,6 @@ body {
     border-radius: 50px;
 }
 
-
-#project1 {
-    background: url("../media/projects/project1.webp");
-    background-size: cover;
-}
-
-#project2 {
-    background: url("../media/projects/project2.webp");
-    background-size: cover;
-}
-
-#project3 {
-    background: url("../media/projects/project3.webp");
-    background-size: cover;
-}
-
-#project4 {
-    background: url("../media/projects/project4.webp");
-    background-size: cover;
-}
-
-#project5 {
-    background: url("../media/projects/project5.webp");
-    background-size: cover;
-}
-
-#project6 {
-    background: url("../media/projects/project6.webp");
-    background-size: cover;
-}
-
-#project7 {
-    background: url("../media/projects/project7.webp");
-    background-size: cover;
-}
-
-#project8 {
-    background: url("../media/projects/project8.webp");
-    background-size: cover;
-}
-
-#project9 {
-    background: url("../media/projects/project9.webp");
-    background-size: cover;
-}
-
-#project10 {
-    background: url("../media/projects/project10.webp");
-    background-size: cover;
-}
-
-#project11 {
-    background: url("../media/projects/project11.webp");
-    background-size: cover;
-}
-
-#project12 {
-    background: url("../media/projects/project12.webp");
-    background-size: cover;
-}
-
-#project13 {
-    background: url("../media/projects/project13.webp");
-    background-size: cover;
-}
-
-#project14 {
-    background: url("../media/projects/project14.webp");
-    background-size: cover;
-}
-
-#project15 {
-    background: url("../media/projects/project15.webp");
-    background-size: cover;
-}
-
 .projectArticleLeft {
     background: rgba(15, 15, 15, 0.85);
     color: rgba(255, 255, 255, 0.7);
@@ -295,7 +219,7 @@ body {
 }
 
 .projectArticleLeft > h2 {
-    background: linear-gradient(1deg in oklab, hsla(0, 0%, 100%, 0.85), hsla(0, 0%, 75%, 0.85));
+    background: linear-gradient(1deg in oklab, hsla(0, 0%, 100%, 0.7), hsla(0, 0%, 75%, 0.7));
     filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
     -webkit-background-clip: text;
     background-clip: text;
@@ -331,29 +255,7 @@ body {
     margin-top: 20px;
 }
 
-#project1 > .projectArticleLeft > h1 {
-    background: linear-gradient(1deg in oklab, hsla(71, 20%, 25%, 0.9), hsla(215, 44%, 25%, 0.9));
-    filter: drop-shadow(2px 2px 1px hsla(71, 20%, 25%, 0.3));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
 
-#project2 > .projectArticleLeft > h1 {
-    background: linear-gradient(1deg in oklab, hsla(25, 45%, 36%, 0.9), hsla(268, 12%, 44%, 0.9));
-    filter: drop-shadow(2px 2px 1px hsla(25, 22%, 44%, 0.3));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-#project9 > .projectArticleLeft > h1 {
-    background: linear-gradient(1deg in oklab, hsla(48, 4%, 25%, 0.9), hsla(227, 35%, 60%, 0.9));
-    filter: drop-shadow(2px 2px 1px hsla(25, 22%, 44%, 0.3));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
 
 .projectArticleRight {
     padding-top: 20px;
