@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(19, 19, 19);
     color: white;
@@ -8,6 +12,95 @@ body {
     font-weight: 200;
     font-weight: lighter;
     font-style: normal;
+}
+
+#main {
+    position: relative;
+    top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mainAnchor {
+    position: relative;
+    top: calc(-5vh - min(60px, 25vw) - 120px);
+}
+
+#projectsAnchor {
+    position: relative;
+    top: calc(min(60px, 25vw));
+}
+
+#projects {
+    position: relative;
+    top: calc(5vh + 120px);
+}
+
+#aboutMe {
+    position: relative;
+    top: calc(5vh + 120px);
+}
+
+#contact {
+    position: relative;
+    top: calc(5vh + 120px);
+}
+
+
+#mainArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: max(600px, 75vh);
+    width: calc(100% - max(15vw, 60px));
+    max-height: 1000px;
+    background: rgba(15, 15, 15, 0.85);
+    border-radius: 50px;
+}
+
+#mainArticle > h1 {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(1deg in oklab, hsla(262, 100%, 70%, 0.6), hsla(262, 100%, 50%, 0.6));
+    font-size: 60px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    filter: drop-shadow(2px 2px 1px rgba(132, 61, 255, 0.3));
+    color: transparent;
+    font-size: min(12vw, 64px);
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    z-index: 0;
+}
+
+.projectArticleLeft > h1 {
+    background: linear-gradient(1deg in oklab, hsla(278, 100%, 76%, 0.6), hsla(31, 100%, 75%, 0.6));
+    -webkit-background-clip: text;
+    filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
+    background-clip: text;
+    color: transparent;
+    font-size: min(12vw, 64px);
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    z-index: 0;
+}
+
+.projectArticleLeft > h2 {
+    background: linear-gradient(1deg in oklab, hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 75%, 0.6));
+    filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: min(9vw, 48px);
+    font-weight: 500;
+    font-style: italic;
+    margin: 0;
 }
 
 #pageHeader {
@@ -232,7 +325,9 @@ body {
 }
 
 #pageFooter {
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    left: 0%;
+    width:auto;
     font-size: 10px;
 }
