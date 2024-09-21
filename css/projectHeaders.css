@@ -24,7 +24,7 @@
 
 #project7 > .projectArticleLeft > h1 {
     background: linear-gradient(1deg in oklab, hsla(279, 94%, 40%, 0.9), hsla(133, 100%, 64%, 0.9));
-    filter: drop-shadow(2px 2px 1px hsla(51, 83%, 76%, 0.3));
+    filter: drop-shadow(2px 2px 1px hsla(279, 83%, 76%, 0.3));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
