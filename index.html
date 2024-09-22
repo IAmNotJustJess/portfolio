@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mainArticle.css">
+    <link rel="stylesheet" href="css/projectArticle.css">
     <link rel="stylesheet" href="css/projectBackgrounds.css">
     <link rel="stylesheet" href="css/projectHeaders.css">
+    <link rel="stylesheet" href="css/contactArticle.css">
+    <link rel="stylesheet" href="css/aboutMeArticle.css">
+
     <title>IAmNotJustJess's Website</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,10 +26,10 @@
         <a href="#projectsAnchor">
             Projects
         </a>
-        <a href="#aboutMe">
+        <a href="#aboutMeAnchor">
             About Me
         </a>
-        <a href="#contact">
+        <a href="#contactAnchor">
             Contact
         </a>
     </header>
@@ -33,16 +39,29 @@
             <h1>
                 Hello!
             </h1>
-            <h2>
+            <h4>
                 It's nice seeing you here on my personal website!<br>
-                Feel free to browse around it a bit!<br>
-                In here you can find some of the stuff I worked on (with some interesting stories), a few bits about me and a way to contact me!<br>
+                Feel free to browse around a bit!<br>
+                In here you can find some of the stuff I worked on, a few bits about me<br>
+                and some info about how to contact me!<br>
                 Safe travels!
-            </h2>
+            </h4>
         </article>
     </div>
     <div id="projectsAnchor"></div>
     <div id="projects">
+        <article class="projectArticle">
+            <div id="projectArticle">
+                <h1 class="projectArticleH1">
+                    All the projects!
+                </h1>
+                <h4 class="projectArticleH4">
+                    In here you can find all the projects I worked on!
+                    There are currently 15 projects I worked on that were public.
+                    The images in the background represent the project as either: the final result or a map you could find on the Minecraft Projects.
+                </h4>
+            </div>
+        </article>
         <article class="projectArticle" id="project1">
             <div class="projectArticleLeft">
                 <h1>2016</h1>
@@ -235,50 +254,48 @@
             <div class="projectArticleRight"></div>
         </article>
     </div>
+    <div id="aboutMeAnchor"></div>
     <div id="aboutMe">
         <article id="aboutMeArticle">
             <h1>
-                Hello! IAmNotJustJess here!
+                IAmNotJustJess here!
             </h1>
-            <h2>
-                I am a 21 year old developer from Poland, currently on the way to obtain an engineering degree in Computer Science.<br>
-                I specialise in Software Development and Motion Design. I do also love working with anything that involves computers and all kinds of art!<br>
-                I started my programming adventures at around 12 years old, thanks to the use of a Minecraft Server-Side Scripting Language called simply Skript.
-                Ever since I worked on many projects in the Minecraft scene, starting with RoulyCraft, eventually ending at the latest BedSMP.<br>
-                I transitioned from using Skript to Java in 2022, which fortunately went really smoothly as I ported one of the Mini-Games I wrote in Skript to Java!<br>
-                In 2017 I finally started playing around with Adobe After Effects, which helped me obtain new skills that allowed me to understand how to make something visually appealing.<br>
-                Nowadays I am messing around with the Godot engine and websites (such as this!) and I hope that this can allow me to hopefully put my skills on the professional level!
-            </h2>
+            <h4>
+                I am a <span class="aboutMeCol">21 year old</span> developer from Poland, currently on the way to obtain an <span class="aboutMeCol">Engineering Degree</span> in <span class="aboutMeCol">Computer Science</span>.<br>
+                I specialise in <span class="aboutMeCol">Software Development</span> and <span class="aboutMeCol">Motion Design</span>. I do also love working with anything that involves computers and all kinds of art!<br>
+                I started my programming adventures at around <span class="aboutMeCol">12 years old</span>, thanks to the use of a <span class="aboutMeCol">Minecraft Server-Side Scripting Language</span> called simply <span class="aboutMeCol">Skript</span>.
+                Ever since I worked on many projects in the Minecraft scene, starting with <span class="aboutMeCol">RoulyCraft</span>, eventually ending at the latest <span class="aboutMeCol">BedSMP</span>.<br>
+                I transitioned from using <span class="aboutMeCol">Skript</span> to <span class="aboutMeCol">Java</span> in <span class="aboutMeCol">2022</span>, which fortunately went really smoothly as I ported one of the Mini-Games I wrote in Skript to Java!<br>
+                In <span class="aboutMeCol">2017</span> I finally started playing around with <span class="aboutMeCol">After Effects</span>, which helped me obtain new skills that allowed me to understand how to make something visually appealing.<br>
+                Nowadays I am messing around with the <span class="aboutMeCol">Godot Engine</span> and <span class="aboutMeCol">websites (such as this!)</span> and I hope that this can allow me to hopefully put my skills on the professional level!
+            </h4>
         </article>
     </div>
+    <div id="contactAnchor"></div>
     <div id="contact">
         <article id="contactArticle">
             <h1>
                 A few places to find me:
             </h1>
-            <ul>
-                <li>
-                    Discord: .justJess
-                </li>
-                <li>
-                    <a href="https://github.com/IAmNotJustJess">Github: IAmNotJustJess</a>
-                </li>
-                <li>
-                    <a href="mailto:banderegewigz@gmail.com">E-Mail: banderegewigz@gmail.com</a>
-                </li>
+            <h4>
+                <span id="contactArticle1">Discord: @.justJess</span><br>
+                <a id="contactArticle2" href="https://github.com/IAmNotJustJess">Github: IAmNotJustJess</a><br>
+                <a id="contactArticle3" href="mailto:banderegewigz@gmail.com">E-Mail: banderegewigz@gmail.com</a><br>
+            </h4>
+                
             </ul>
-            <div id="todo">
-                todo: fix stuff above this thingo real fast!!!<br>
-                language switch: pl/en<br>
-                more images for all the projects (outside of my control lmao)<br>
-                an example website as a prep-work thingo<br>
-                that's it<br>
-                lol<br>
-                :)<br>
-            </div>
+            
         </article>
     </div>
-    
+    <div id="spacer"></div>
+    <div id="todo"></div>
+        todo: language switch: pl/en<br>
+        more images for all the projects (outside of my control lmao)<br>
+        an example website as a prep-work thingo<br>
+        that's it<br>
+        lol<br>
+        :)<br>
+    </div>
     <footer id="pageFooter">
         © justJess 2024
     </footer>

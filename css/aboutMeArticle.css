@@ -1,0 +1,60 @@
+
+#aboutMe {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: calc(5vh + 240px);
+}
+
+#aboutMeArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: max(600px, 75vh);
+    width: calc(100% - max(15vw, 60px));
+    max-height: 1000px;
+    background: rgba(15, 15, 15, 0.85);
+    border-radius: 50px;
+}
+
+#aboutMeArticle > h1 {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(1deg in oklab, hsla(342, 100%, 70%, 0.7), hsla(342, 100%, 50%, 0.7));
+    filter: drop-shadow(2px 2px 1px hsla(342, 100%, 70%, 0.3));
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 60px;
+    color: transparent;
+    font-size: min(8vw, 128px);
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    z-index: 0;
+}
+
+#aboutMeArticle > h4 {
+    background: hsla(0, 0%, 100%, 0.7);
+    filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: min(24px, 2.5vw);
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.aboutMeCol {
+    background: hsla(0, 100%, 100%, 0.7);
+    filter: drop-shadow(2px 2px 1px hsla(0, 0%, 100%, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+}

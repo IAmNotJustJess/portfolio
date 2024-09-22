@@ -1,0 +1,141 @@
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 120px;
+}
+
+.projectArticle {
+    display: flex;
+    background: rgba(15, 15, 15, 0.85);
+    height: max(600px, 75vh);
+    max-height: 1000px;
+    width: calc(100% - max(15vw, 60px));
+    text-align: right;
+    align-items: stretch;
+    border-radius: 50px;
+}
+
+#projectArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: max(600px, 75vh);
+    max-height: 1000px;
+    background: rgba(15, 15, 15, 0.85);
+    border-radius: 50px;
+}
+
+.projectArticleH1 {
+    color: white;
+    background: linear-gradient(1deg in oklab, hsla(22, 100%, 70%, 0.7), hsla(2, 100%, 50%, 0.7));
+    filter: drop-shadow(2px 2px 1px hsla(22, 100%, 70%, 0.3));
+    padding-left: 10px;
+    padding-right: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 60px;
+    color: transparent;
+    font-size: min(8vw, 128px);
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    z-index: 0;
+}
+
+.projectArticleH4 {
+    background: hsla(0, 0%, 100%, 0.7);
+    filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: min(32px, 4vw);
+    font-weight: 300;
+    margin: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.projectArticleLeft {
+    background: rgba(15, 15, 15, 0.85);
+    color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    justify-content: center;
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 70%;
+}
+
+.projectArticleLeft > h1 {
+    background: linear-gradient(1deg in oklab, hsla(278, 100%, 76%, 0.7), hsla(31, 100%, 75%, 0.7));
+    -webkit-background-clip: text;
+    filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
+    background-clip: text;
+    color: transparent;
+    font-size: min(12vw, 64px);
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    z-index: 0;
+}
+
+.projectArticleLeft > h2 {
+    background: linear-gradient(1deg in oklab, hsla(0, 0%, 100%, 0.7), hsla(0, 0%, 75%, 0.7));
+    filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: min(9vw, 48px);
+    font-weight: 600;
+    font-style: italic;
+    margin: 0;
+}
+
+
+.projectArticleLeft > h3 {
+    background: linear-gradient(1deg in oklab, hsla(0, 0%, 100%, 0.7), hsla(0, 0%, 75%, 0.7));
+    filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: min(32px, 6vw);
+    font-style: italic;
+    font-weight: 500;
+    margin: 0;
+}
+
+.projectArticleLeft > h4 {
+    background: hsla(0, 0%, 100%, 0.7);
+    filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: min(24px, 3vw);
+    font-weight: 300;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.projectArticleRight {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 30%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#projects {
+    position: relative;
+    top: calc(5vh + 120px);
+}
