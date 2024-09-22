@@ -46,7 +46,7 @@
     filter: drop-shadow(2px 2px 1px hsla(218, 41%, 41%, 0.3));
     background-clip: text;
     color: transparent;
-    font-size: min(6vw, 32px);
+    font-size: min(4vw, 32px);
     font-weight: 900;
     font-style: italic;
 }
@@ -59,7 +59,7 @@
     filter: drop-shadow(2px 2px 1px hsl(0, 0%, 30%, 0.3));
     background-clip: text;
     color: transparent;
-    font-size: min(6vw, 32px);
+    font-size: min(4vw, 32px);
     font-weight: 900;
     font-style: italic;
 }
@@ -72,7 +72,7 @@
     filter: drop-shadow(2px 2px 1px hsla(351, 100%, 37%, 0.3));
     background-clip: text;
     color: transparent;
-    font-size: min(6vw, 32px);
+    font-size: min(4vw, 32px);
     font-weight: 900;
     font-style: italic;
 }
@@ -85,7 +85,7 @@
     filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
     background-clip: text;
     color: transparent;
-    font-size: min(6vw, 32px);
+    font-size: min(4vw, 32px);
     font-weight: 900;
     font-style: italic;
 }
