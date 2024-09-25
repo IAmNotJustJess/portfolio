@@ -83,13 +83,18 @@ body {
     cursor: pointer;
 }
 
-.switch-lang > span {
+.spanLang2 {
     background: linear-gradient(1deg in oklab, hsla(255, 100%, 70%, 0.7), hsla(255, 100%, 50%, 0.7));
     filter: drop-shadow(2px 2px 1px hsla(255, 100%, 20%, 0.3));
     padding-left: 3px;
     padding-right: 3px;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.spanLang1 {
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 #pageHeader > a:hover:nth-child(1) {
