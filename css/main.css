@@ -83,7 +83,7 @@ body {
     cursor: pointer;
 }
 
-.spanLang2 {
+.spanLang1.en {
     background: linear-gradient(1deg in oklab, hsla(255, 100%, 70%, 0.7), hsla(255, 100%, 50%, 0.7));
     filter: drop-shadow(2px 2px 1px hsla(255, 100%, 20%, 0.3));
     padding-left: 3px;
@@ -92,7 +92,16 @@ body {
     background-clip: text;
 }
 
-.spanLang1 {
+.spanLang1.pl {
+    background: linear-gradient(1deg in oklab, hsla(351, 100%, 70%, 0.7), hsla(351, 100%, 50%, 0.7));
+    filter: drop-shadow(2px 2px 1px hsla(351, 100%, 20%, 0.3));
+    padding-left: 3px;
+    padding-right: 3px;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.spanLang2 {
     padding-left: 3px;
     padding-right: 3px;
 }
