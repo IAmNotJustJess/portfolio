@@ -77,6 +77,19 @@
     font-style: italic;
 }
 
+#contactArticle4 {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(1deg in oklab, hsla(3, 62%, 47%, 0.7), hsla(351, 100%, 37%, 0.7));
+    -webkit-background-clip: text;
+    filter: drop-shadow(2px 2px 1px hsla(3, 62%, 47%, 0.3));
+    background-clip: text;
+    color: transparent;
+    font-size: min(4vw, 32px);
+    font-weight: 900;
+    font-style: italic;
+}
+
 .articleHideA a, a:visited {
     text-decoration: none;
     color: white;
