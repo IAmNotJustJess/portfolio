@@ -59,13 +59,14 @@ body {
     z-index: 100;
 }
 
-#pageHeader > a, #pageHeader > a:visited{
-    width: max(15vh, 15%);
+#pageHeader > a, #pageHeader > a:visited, #pageHeader > button{
+    width: max(15vh, 10%);
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 
+    border: none;
     text-decoration: none;
     color: white;
     background: linear-gradient(1deg in oklab, hsla(0, 0%, 100%, 0.7), hsla(0, 0%, 50%, 0.7));
@@ -73,9 +74,22 @@ body {
     filter: drop-shadow(2px 2px 1px rgba(255, 255, 255, 0.3));
     background-clip: text;
     color: transparent;
-    font-size: min(6vw, 32px);
+    font-size: min(5vw, 28px);
     font-weight: 900;
     font-style: italic;
+}
+
+.switch-lang {
+    cursor: pointer;
+}
+
+.switch-lang > span {
+    background: linear-gradient(1deg in oklab, hsla(255, 100%, 70%, 0.7), hsla(255, 100%, 50%, 0.7));
+    filter: drop-shadow(2px 2px 1px hsla(255, 100%, 20%, 0.3));
+    padding-left: 3px;
+    padding-right: 3px;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 #pageHeader > a:hover:nth-child(1) {

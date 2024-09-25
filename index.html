@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/contactArticle.css">
     <link rel="stylesheet" href="css/aboutMeArticle.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/languageSwitch.js"></script>
+
     <title>IAmNotJustJess's Website</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,19 +35,31 @@
         <a href="#contactAnchor">
             Contact
         </a>
+        <button class="switch-lang pl"><span>PL</span>/EN</button>
+        <button class="switch-lang en">PL/<span>EN</span></button>
     </header>
     <div id="mainAnchor"></div>
     <div id="main">
         <article id="mainArticle">
-            <h1>
+            <h1 class="en">
                 Hello!
             </h1>
-            <h4>
+            <h4 class="en">
                 It's nice seeing you here on my personal website!<br>
                 Feel free to browse around a bit!<br>
                 In here you can find some of the stuff I worked on, a few bits about me<br>
                 and some info about how to contact me!<br>
                 Safe travels!
+            </h4>
+            <h1 class="pl">
+                Hejka!
+            </h1>
+            <h4 class="pl">
+                Fajnie cię tu widzieć!<br>
+                Witaj na mojej małej personalnej stronce!<br>
+                Jak to mówią, czuj się jak u siebię, i poeksploruj ją troszkę!<br>
+                Znajdziesz tutaj wiele rzeczy nad którym mi się pracowało, jak i troszkę informacji o mnie!<br>
+                Miłego dnia!
             </h4>
         </article>
     </div>
@@ -52,25 +67,40 @@
     <div id="projects">
         <article class="projectArticle">
             <div id="projectArticle">
-                <h1 class="projectArticleH1">
+                <h1 class="projectArticleH1 en">
                     All the projects!
                 </h1>
-                <h4 class="projectArticleH4">
+                <h4 class="projectArticleH4 en">
                     In here you can find all the projects I worked on!
                     There are currently 15 projects I worked on that were public.
                     The images in the background represent the project as either: the final result or a map you could find on the Minecraft Projects.
+                </h4>
+                <h1 class="projectArticleH1 pl">
+                    Wszysciutkie projekty!
+                </h1>
+                <h4 class="projectArticleH4 pl">
+                    Tutaj znajdziesz wszystkie projekty, nad którym mi się pracowało!
+Aktualnie jest 15 publicznie ich znanych.
+Obrazki w tle reprezentują dany projekt jako: albo finałowy rezultat, albo mapa, którą można było zobaczyć na projektach Minecraftowych.
                 </h4>
             </div>
         </article>
         <article class="projectArticle" id="project1">
             <div class="projectArticleLeft">
                 <h1>2016</h1>
-                <h2>RoulyCraft.pl - 2nd Edition</h2>
-                <h3>Roles: Developer</h3>
-                <h4>
+                <h2 class="en">RoulyCraft.pl - 2nd Edition</h2>
+                <h3 class="en">Role: Developer</h3>
+                <h4 class="en">
                     The start of my more let's say more professional adventures!<br>
                     In here I could finally put my messing around with Skript to good use!<br>
                     I worked on configuring some plugins, adding some VIP kits and a custom Shop for players.
+                </h4>
+                <h2 class="pl">RoulyCraft.pl - II Edycja</h2>
+                <h3 class="pl">Rola: Programista, Technik</h3>
+                <h4 class="pl">
+                    Początek mojej powiedzmy profesjonalnej kariery!<br>
+                    Tutaj w końcu udało mi się pokazać to, co potrafię robić w Skripcie!<br>
+                    Pracowało mi się nad konfiguracją pluginów, dodaniem kitów VIP oraz własnym sklepem dla graczy.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -78,12 +108,19 @@
         <article class="projectArticle" id="project2">
             <div class="projectArticleLeft">
                 <h1>2016</h1>
-                <h2>RoulyCraft.pl - 3rd Edition</h2>
-                <h3>Roles: Developer</h3>
-                <h4>
+                <h2 class="en">RoulyCraft.pl - 3rd Edition</h2>
+                <h3 class="en">Role: Developer</h3>
+                <h4 class="en">
                     The second time I helped with developing this server. At this point I've become a core part of RoulyCraft as a whole!<br>
                     I worked on its' ranking-up system, tons of long-range weapons and amulets of power.
                     I also did some work on some administrative tools.
+                </h4>
+                <h2 class="pl">RoulyCraft.pl - III Edycja</h2>
+                <h3 class="pl">Rola: Programista, Technik</h3>
+                <h4 class="pl">
+                    To był już drugi raz, kiedy pracowało mi się nad tym serwerem. W tym momencie moja rola stała się wręcz kluczową w istnieniu serwera!<br>
+                    Pracowało mi się nad systemem poziomów, dużej ilości broni palnej, jak i amuletów mocy.
+                    Dodatkowo udało mi się stworzyć trochę narzędzi administracyjnych.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -92,10 +129,15 @@
             <div class="projectArticleLeft">
                 <h1>2017</h1>
                 <h2>StrangeHC.pl</h2>
-                <h3>Roles: Developer</h3>
-                <h4>
+                <h3 class="en">Role: Developer</h3>
+                <h4 class="en">
                     A side project we did, as some sort of a simplified refresher to our RoulyCraft portfolio.<br>
                     I created some custom weapons for players to use, and configured some other plugins as well.
+                </h4>
+                <h3 class="pl">Rola: Programista, Technik</h3>
+                <h4 class="pl">
+                    Był to nasz poboczny projekt, taki powiedzmy odświeżacz dla naszego portfolio RoulyCraft.<br>
+                    Stworzyło mi się trochę własnych broni palnych dla graczy oraz konfigurowało mi się pluginy.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -104,11 +146,17 @@
             <div class="projectArticleLeft">
                 <h1>2017</h1>
                 <h2>RoulyCraft.pl - SkyBlock</h2>
-                <h3>Roles: Developer, Gameplay Designer</h3>
-                <h4>
-                    An another project of ours, a sort of a Back to Roots type of a deal.
-                    Even though at core this server was a skyblock, it also had a hybrid of several Mini-Games to allow players to earn more in-game money!<br>
+                <h3 class="en">Role: Developer, Gameplay Designer</h3>
+                <h4 class="en">
+                    An another project of ours, a sort of a back to roots type of a deal.
+                    Even though at core this server was a SkyBlock, it also had a hybrid of several Mini-Games to allow players to earn more in-game money!<br>
                     I worked on configuring some Mini-Games, and I designed two myself: SkyUHC - a combination of Ultra Hardcore and Skyblock; Capture the Flag - a class based team game.
+                </h4>
+                <h3 class="pl">Rola: Programista, Technik, Gameplay Designer</h3>
+                <h4 class="pl">
+                    Kolejny nasz projekt, z lekkim powrotem do korzeni.
+                    Pomimo że sam serwer działał głównie jako SkyBlock, to posiadał też Mini-Gry, które pozwalały graczom zdobyć więcej monet serwerowych!<br>
+                    Pracowało mi się nad konfiguracją niektórych Mini-Gier, jak i zaprojektowało mi się dwa swoje: SkyUHC - kombinacja trybu Ultra Hardcore i SkyBlocka; Capture the Flag - tryb drużynowy z klasami postaci.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -116,11 +164,17 @@
         <article class="projectArticle" id="project5">
             <div class="projectArticleLeft">
                 <h1>2017</h1>
-                <h2>Various first generation Motion Design projects</h2>
-                <h3>Roles: Motion Designer</h3>
-                <h4>
+                <h2 class="en">Various first generation Motion Design projects</h2>
+                <h3 class="en">Role: Motion Designer</h3>
+                <h4 class="en">
                     At this time I started messing around with After Effects, which lead to me finally slowly understanding how to make something visually pleasing.<br>
                     In this first generation of projects of mine I did very simple animated projects for friends, such as video Intros.
+                </h4>
+                <h2 class="pl">Różne projekty Motion Design pierwszej generacji</h2>
+                <h3 class="pl">Rola: Motion Designer</h3>
+                <h4 class="pl">
+                    W tym czasie zaczęło mi się bawić programem After Effects, dzięki czemu moje zrozumienie jak zrobić coś ładnego zaczęło, rosnąć.<br>
+                    W tej generacji, tworzyło mi się proste animacje dla moich znajomych, takie jak animowane intro.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -128,11 +182,17 @@
         <article class="projectArticle" id="project6">
             <div class="projectArticleLeft">
                 <h1>2018</h1>
-                <h2>RoulyCraft.pl - Mini-Games</h2>
-                <h3>Roles: Developer, Gameplay Designer</h3>
-                <h4>
+                <h2 class="en">RoulyCraft.pl - Mini-Games</h2>
+                <h3 class="en">Role: Developer, Gameplay Designer</h3>
+                <h4 class="en">
                     An another project under RoulyCraft's umbrella! This time we wanted to make a full-on Mini-Game Hub!<br>
-                    I created and designed three Mini-Games from scratch, those being: Zombie Apocalypse - A Co-Op Wave Defence; Capute the Flag V2 - a newer twist on Capture the Flag with more classes; Field of Warfare - A 12v12 Shooter inside of Minecraft.
+                    I created and designed three Mini-Games from scratch, those being: Zombie Apocalypse - A Co-Op Wave Defense; Capture the Flag V2 - a newer twist on Capture the Flag with more classes; Field of Warfare - A 12v12 Shooter inside of Minecraft.
+                </h4>
+                <h2 class="pl">RoulyCraft.pl - Mini-Gry</h2>
+                <h3 class="pl">Role: Programista, Technik, Gameplay Designer</h3>
+                <h4 class="pl">
+                    Kolejny projekt pod kapeluszem RoulyCraft! Tutaj chcieliśmy stworzyć pełnoprawny serwer Mini-Gier.<br>
+                    Udało mi się tutaj stworzyć i zaprojektować trzy mini-gry: Zombie Apocalypse - tryb kooperacyjny, polegający na przetrwaniu fal; Capture the Flag V2 - nowsza wersja Capture the Flag z większą ilością klas; Field of Warfare - Tryb strzelankowy 12v12 w Minecrafcie.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -140,11 +200,17 @@
         <article class="projectArticle" id="project7">
             <div class="projectArticleLeft">
                 <h1>2018</h1>
-                <h2>Various second generation motion design projects</h2>
-                <h3>Roles: Motion Designer</h3>
-                <h4>
+                <h2 class="en">Various second generation motion design projects</h2>
+                <h3 class="en">Role: Motion Designer</h3>
+                <h4 class="en">
                     I finally started to make relatively good looking projects! Everything started to get somewhat easy, but still time consuming.<br>
-                    In the second generation of such projects I worked on even more projects for more and more people, even some YouTubers!
+                    In the second generation I worked on even more projects for more and more people, even some YouTubers!
+                </h4>
+                <h2 class="pl">Różne projekty Motion Design drugiej generacji</h2>
+                <h3 class="pl">Rola: Motion Designer</h3>
+                <h4 class="pl">
+                    Tutaj, w końcu udało mi się stworzyć coś nawet ładnego! Wszystko zaczęło być dla mnie prostsze, ale wciąż zajmowało mi dużo czasu.<br>
+                    W drugiej generacji stworzyło mi się większą ilość animacji dla jeszcze większej ilości osób, nawet dla YouTuberów!
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -152,11 +218,17 @@
         <article class="projectArticle" id="project8">
             <div class="projectArticleLeft">
                 <h1>2019</h1>
-                <h2>ByleCos.pl - 1st Edition</h2>
-                <h3>Roles: Developer, Gameplay Designer</h3>
-                <h4>
+                <h2 class="en">ByleCos.pl - 1st Edition</h2>
+                <h3 class="en">Role: Developer, Gameplay Designer</h3>
+                <h4 class="en">
                     An another refresher from our RoulyCraft team! This time a more classic Survival with a custom made map and a created from scratch player villages system! Most of the map was in a PvE zone, but inside of Villages and the Nether biomes PvP was enabled.<br>
                     I configured plugins and created the entire village system, which includes: village levels, village professions, village-wide buffs and more!
+                </h4>
+                <h2 class="pl">ByleCos.pl - I Edycja</h2>
+                <h3 class="pl">Rola: Programista, Technik, Gameplay Designer</h3>
+                <h4 class="pl">
+                    Kolejny ala odświeżacz od naszej ekipy RoulyCraft! Tym razem zdecydowaliśmy się na bardziej klasyczny Survival z własną, w pełni stworzoną mapą ze strefami PvP i PvE oraz własnym, stworzonym od zera systemem wiosek dla graczy!<br>
+                    Moim zadaniem była konfiguracja pluginów i stworzenie całego systemu wiosek, czyli: ich poziomów, pracy w wioskach, jak i ulepszeń dla całej wioski!
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -164,12 +236,19 @@
         <article class="projectArticle" id="project9">
             <div class="projectArticleLeft">
                 <h1>2020</h1>
-                <h2>ByleCos.pl - 2nd Edition</h2>
-                <h3>Roles: Developer, Gameplay Designer</h3>
-                <h4>
+                <h2 class="en">ByleCos.pl - 2nd Edition</h2>
+                <h3 class="en">Role: Developer, Gameplay Designer</h3>
+                <h4 class="en">
                     Ah, the second edition of ByleCos! We were really inspired by the XVII'th Century look of Poland, so all additions were based on what you could find during said times!
                     The server had a custom map that recreated Poland's territory of said times, though scaled down a bit.<br>
                     I created a statistics system; a new rank-up system; a new job system; an injuries and ailments system and an election system. Additionally to give players new tools of combat I also created many custom firearms, bombs and cannons!
+                </h4>
+                <h2 class="pl">ByleCos.pl - II Edycja</h2>
+                <h3 class="pl">Rola: Programista, Technik, Gameplay Designer</h3>
+                <h4 class="pl">
+                    Nasza ukochana druga edycja ByleCos! Naszą inspiracją była Polska w czasach XVII wieku, więc większość naszych dodatków na serwerze były związane z tym okresem!
+                    Serwer ponownie miał własną, stworzoną od zera mapę, która była przeniesieniem mapy Polski z tamtych lat na świat Minecrafta, lecz trochę na mniejszą skalę.<br>
+                    Udało mi się tam stworzyć system statystyk; nowy system zwiększania swojego statusu; system chorób i przypadłości oraz system elekcji. Dodatkowo stworzyło mi się nowe bronie, które pojawiały się w tamtym okresie historii: pistolety, bomby i armaty!
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -177,12 +256,19 @@
         <article class="projectArticle" id="project10">
             <div class="projectArticleLeft">
                 <h1>2020</h1>
-                <h2>Various third generation motion design projects</h2>
-                <h3>Roles: Motion Designer</h3>
-                <h4>
+                <h2 class="en">Various third generation motion design projects</h2>
+                <h3 class="en">Role: Motion Designer</h3>
+                <h4 class="en">
                     The latest and greatest generation of my motion design projects.<br>
                     The rate of said projects slowed down during this time but I can gladly say that I finally understood how to make stuff look good and relatively fast.<br>
-                    I made even more animated intros for YouTubers and friends of mine. As well as some small additions for some videos.
+                    I made even more animated intros for YouTubers and friends of mine, as well as some small additions for some videos.
+                </h4>
+                <h2 class="pl">Różne projekty Motion Design trzeciej generacji</h2>
+                <h3 class="pl">Rola: Motion Designer</h3>
+                <h4 class="pl">
+                    Moje najnowsza i najlepsza do tej pory generacja takich oto projektów.<br>
+                    Ilość animacji tworzonych przeze mnie zwolniła, lecz nie poszło to na marne - moje zrozumienie jak tworzyć coś ładnego i w dodatku całkiem szybko, jest już na satysfakcjonującym mnie poziomie!<br>
+                    Stworzyło mi się jeszcze więcej animowanych intr dla znajomych, jak i YouTuberów, a także pomniejsze wstawki do paru filmów.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -190,12 +276,19 @@
         <article class="projectArticle" id="project11">
             <div class="projectArticleLeft">
                 <h1>2020</h1>
-                <h2>ByleCos.pl - 3rd Edition V1</h2>
-                <h3>Roles: Developer, Gameplay Designer</h3>
-                <h4>
+                <h2 class="en">ByleCos.pl - 3rd Edition V1</h2>
+                <h3 class="en">Role: Developer, Gameplay Designer</h3>
+                <h4 class="en">
                     An another edition of our beloved ByleCos project! This time we wanted to add more RPG elements to it. Eventually the project didn't come to fruition though.
-                    There's no much I can say about other than how I finally coded something really modular and advanced, that being firearms! You could basically change every bit about the weapon, bullet count, ammo, action types, rate of fire, spread and more!<br>
+                    There's no much I can say about other than how I finally coded something really modular and advanced, that being custom weapons! You could basically change every bit about the weapon, bullet count, ammo, action types, rate of fire, spread and more!<br>
                     Even though it didn't get to a point of being a thing I worked on a new advanced modular firearm system, RPG statistics and levelling system.
+                </h4>
+                <h2 class="pl">ByleCos.pl - III Edycja V1</h2>
+                <h3 class="pl">Rola: Programista, Technik, Gameplay Designer</h3>
+                <h4 class="pl">
+                    Miała to być kolejna edycja naszego ukochanego serwera ByleCos. Tym razem chcieliśmy dodać więcej mechanik RPG, lecz projekt ten nie doszedł do końca.
+                    Aż tak dużo nie mam do powiedzenia o tym projekcie oprócz tego, że w końcu napisało mi się bardzo modularny i zaawansowany system broni! Można było zmieniać praktycznie wszystko o danej broni, ile pocisków wylatuje z lufy, amunicję, typ akcji, szybkość strzelania, rozrzut itp.!<br>
+                    Mimo że serwer nie przeżył w takiej formie, wciąż pracowało mi się nad powyższym modularnym systemem broni, statystykami RPG i systemem poziomów.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -203,13 +296,21 @@
         <article class="projectArticle" id="project12">
             <div class="projectArticleLeft">
                 <h1>2021</h1>
-                <h2>ByleCos.pl - 3rd Edition V2</h2>
-                <h3>Roles: Developer, Gameplay Designer</h3>
-                <h4>
+                <h2 class="en">ByleCos.pl - 3rd Edition V2</h2>
+                <h3 class="en">Role: Developer, Gameplay Designer</h3>
+                <h4 class="en">
                     The 2nd version of our third edition. We scrapped the old RPG aspects to touch something that we all agreed was really good - the progression system!
                     We wanted to implement a custom "through the ages" system, where you completed quests to unlock new ages of machinery that could help you with obtaining new cool stuff!
                     Unfortunately this project got shelved for the time being.<br>
                     I worked on implementing new features for animated menus, custom machinery with their own power sources and utilities, new tools and more.
+                </h4>
+                <h2 class="pl">ByleCos.pl - III Edycja V2</h2>
+                <h3 class="pl">Rola: Programista, Technik, Gameplay Designer</h3>
+                <h4 class="pl">
+                    Druga wersja naszej trzeciej edycji. Wyrzuciliśmy aspekty RPGowe, by poruszyć coś, co było według nas bardzo dobre - system progresji!
+                    Chcieliśmy zaimplementować własny system "przechodzenia przez epoki", gdzie gracz musiał zrobić jakieś zadania, by odblokować ów nowe epoki, które dały dostęp do nowych narzędzi i maszyn!
+                    Niestety ten projekt jak na razie leży na półce i czeka na ponowne ruszenie.<br>
+                    Pracowało mi się nad zaimplementowaniem nowych dodatków dla animowanych menu serwerowych, własnych maszyn z różnymi źródłami energii i użytkiem, nowymi narzędziami itd.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -217,12 +318,19 @@
         <article class="projectArticle" id="project13">
             <div class="projectArticleLeft">
                 <h1>2022</h1>
-                <h2>BedSMP</h2>
-                <h3>Roles: Developer</h3>
-                <h4>
+                <h2 class="en">BedSMP</h2>
+                <h3 class="en">Role: Developer</h3>
+                <h4 class="en">
                     There's not a lot of stuff I could talk about this project, since it was simple from the get-go: make your usual SMP server, with data-packs from the internet and a new twist!
                     That being BedWars-like beds for our YouTubers! Since most if not all of them made content on the BedWars Mini-Game it only felt natural!<br>
                     I worked on implementing the Bed being a respawn beacon for YouTubers and the upgrade system for them to utalise to get even stronger!
+                </h4>
+                <h2 class="pl">BedSMP</h2>
+                <h3 class="pl">Rola: Programista, Technik</h3>
+                <h4 class="pl">
+                    Nie ma tutaj aż tak dużo do powiedzenia o tym projekcie, w końcu był on bardzo prosty od samego punktu startowego: mieliśmy stworzyć typowy serwer SMP, lecz z różnymi data-packami i naszą nowością -
+                    podobnym do BedWarsów systemem łóżek dla naszych YouTuberów! Było to wręcz idealne, dlatego że praktycznie wszyscy nasi twórcy robili materiały na temat BedWarsów!<br>
+                    Pracowało mi się nad zaimplementowaniem łóżka, jako miejsce odrodzenia i systemem ulepszeń, dzięki czemu każdy mógł stać się potężniejszy.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -230,11 +338,18 @@
         <article class="projectArticle" id="project14">
             <div class="projectArticleLeft">
                 <h1>2023</h1>
-                <h2>Unreleased Minecraft Mini-Game Server</h2>
-                <h3>Roles: Developer, Gameplay Designer</h3>
-                <h4>
+                <h2 class="en">Unreleased Minecraft Mini-Game Server</h2>
+                <h3 class="en">Role: Developer, Gameplay Designer</h3>
+                <h4 class="en">
                     The last project I worked on in Minecraft so far. In here I finally made a move to Java, but even before that I used Skript for last two Mini-Games. We'll see wether this project will pop up later again.<br>
-                    I created three Mini-Games while working on it: that being Capute the Flag V3, BedWars with our new Twist and Zombie Apocalypse V2.
+                    I created three Mini-Games while working on it: that being Capture the Flag V3, BedWars with our new Twist and Zombie Apocalypse V2.
+                </h4>
+                <h2 class="pl">Niewypuszcony Serwer Mini-Gier w Minecraft</h2>
+                <h3 class="pl">Rola: Programista, Technik, Gameplay Designer</h3>
+                <h4 class="pl">
+                    Ostatni projekt, nad jakim mi się pracowało w Minecrafcie do tej pory. Tutaj w końcu przeszło mi ze Skripta na Javę, lecz zanim to nastąpiło, napisało mi się jeszcze dwie Mini-Gry.
+                    W przyszłości zobaczymy jeszcze czy ten serwer wróci do żywych, czy nie.<br>
+                    Stworzyło mi się tutaj trzy Mini-Gry: Capture the Flag V3, BedWars z nowym dodatkiem oraz Zombie Apocalypse V2.
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -242,13 +357,21 @@
         <article class="projectArticle" id="project15">
             <div class="projectArticleLeft">
                 <h1>2023</h1>
-                <h2>Tidal Playlist Modifier</h2>
-                <h3>Made by me :D</h3>
-                <h4>
+                <h2 class="en">Tidal Playlist Modifier</h2>
+                <h3 class="en">Made by me :D</h3>
+                <h4 class="en">
                     A friend of mine had a problem with Tidal, he had some songs in his playlist that weren't in the highest quality possible.
                     So I wrote this small little script that looks for highest quality audio of the songs you have in your playlist based on several criteria.
                     Unfortunately it is not spotless, because of how some tracks info being weird but it does work most of the time!
                     It was my first time doing something like this with Python but it was quite alright to be honest!
+                </h4>
+                <h2 class="pl">Modyfikator Playlist Tidal</h2>
+                <h3 class="pl">Stworzony przeze mnie :D</h3>
+                <h4 class="pl">
+                    Mo znajomy miał problem z Tidalem, mianowicie niektóre piosenki w jego playliście nie były w najwyższej jakości.
+                    Napisało mi się dla niego ten skrypt, który próbuje znaleźć najlepszą jakość dla piosenek, które znajdują się w liscie, bazując na różnych kryteriach.
+                    Niestety nie działał on idealnie, przez to, jak Tidal ma wiele różnych dziwnych informacji o kawałkach, ale w większości przypadków działa on dobrze!
+                    To był mój pierwszy taki projekt na Pythonie, ale szczerze mówiąc, nie był on taki zły!
                 </h4>
             </div>
             <div class="projectArticleRight"></div>
@@ -257,25 +380,40 @@
     <div id="aboutMeAnchor"></div>
     <div id="aboutMe">
         <article id="aboutMeArticle">
-            <h1>
+            <h1 class="en">
                 IAmNotJustJess here!
             </h1>
-            <h4>
+            <h4 class="en">
                 I am a <span class="aboutMeCol">21 year old</span> developer from Poland, currently on the way to obtain an <span class="aboutMeCol">Engineering Degree</span> in <span class="aboutMeCol">Computer Science</span>.<br>
                 I specialise in <span class="aboutMeCol">Software Development</span> and <span class="aboutMeCol">Motion Design</span>. I do also love working with anything that involves computers and all kinds of art!<br>
                 I started my programming adventures at around <span class="aboutMeCol">12 years old</span>, thanks to the use of a <span class="aboutMeCol">Minecraft Server-Side Scripting Language</span> called simply <span class="aboutMeCol">Skript</span>.
-                Ever since I worked on many projects in the Minecraft scene, starting with <span class="aboutMeCol">RoulyCraft</span>, eventually ending at the latest <span class="aboutMeCol">BedSMP</span>.<br>
+                Since then I worked on many projects in the Minecraft scene, starting with <span class="aboutMeCol">RoulyCraft</span>, eventually ending at the latest <span class="aboutMeCol">BedSMP</span>.<br>
                 I transitioned from using <span class="aboutMeCol">Skript</span> to <span class="aboutMeCol">Java</span> in <span class="aboutMeCol">2022</span>, which fortunately went really smoothly as I ported one of the Mini-Games I wrote in Skript to Java!<br>
                 In <span class="aboutMeCol">2017</span> I finally started playing around with <span class="aboutMeCol">After Effects</span>, which helped me obtain new skills that allowed me to understand how to make something visually appealing.<br>
                 Nowadays I am messing around with the <span class="aboutMeCol">Godot Engine</span> and <span class="aboutMeCol">websites (such as this!)</span> and I hope that this can allow me to hopefully put my skills on the professional level!
+            </h4>
+            <h1 class="pl">
+                Tu IAmNotJustJess!
+            </h1>
+            <h4 class="pl">
+                Jestem <span class="aboutMeCol">21-letnią</span> osobą zainteresowaną programowaniem z Polski, która właśnie stara się o <span class="aboutMeCol">Dyplom Inżynierski z Informatyki</span>.<br>
+                Specjalizuję się w <span class="aboutMeCol">Software Developmencie</span> i <span class="aboutMeCol">Motion Designie</span>. Kocham również ogólnie pracować z komputerami, jeżeli ta praca wytworzy jakąś sztukę, lub pozwoli mi pokazać moją kreatywność!<br>
+                Moje przygody z programowaniem zaczęły się już w wieku <span class="aboutMeCol">12 lat</span>, dzięki <span class="aboutMeCol">Skryptowemu Językowi dla Serwerów Minecraft</span> znanego jako <span class="aboutMeCol"></span>Skript</span>.
+                Od tego momentu pracowało mi się nad dużą ilością projektów w scenie Minecraftowej, zaczynając od <span class="aboutMeCol">RoulyCrafta</span>, kończąc na <span class="aboutMeCol">BedSMP</span>.<br>
+                W roku <span class="aboutMeCol">2022</span> udało mi się przejść ze <span class="aboutMeCol">Skripta</span> na <span class="aboutMeCol"></span>Javę</span>, która na szczęście była całkiem łatwa i przyjemna, owocem tego przejścia był port jednej z Mini-Gier ze Skripta na Javę!<br>
+                W roku <span class="aboutMeCol">2017</span> zaczęło mi się bawić programem <span class="aboutMeCol">After Effects</span>, dzięki czemu udało mi się zebrać doświadczenie w zrozumieniu jak zrobić coś bardzo miłego dla oka.<br>
+                Obecnie próbuję swoich sił w <span class="aboutMeCol">Godot Engine</span>, jak i <span class="aboutMeCol">stronach internetowych (takich jak ta!)</span>, mam wielką nadzieję, że to pozwoli mi na użycie moich umiejętności w profesjonalnym środowisku!
             </h4>
         </article>
     </div>
     <div id="contactAnchor"></div>
     <div id="contact">
         <article id="contactArticle">
-            <h1>
-                A few places to find me:
+            <h1 class="en">
+                You can find me here!
+            </h1>
+            <h1 class="pl">
+                Tutaj możecie mnie znaleźć!
             </h1>
             <h4>
                 <span id="contactArticle1">Discord: @.justJess</span><br>
@@ -290,8 +428,8 @@
     </div>
     <div id="spacer"></div>
     <div id="todo"></div>
-        todo: language switch: pl/en<br>
-        more images for all the projects (outside of my control lmao)<br>
+        todo:<br>
+        more images for all the projects (outside of my control but it's almost here!!!)<br>
         an example website as a prep-work thingo<br>
         that's it<br>
         lol<br>
