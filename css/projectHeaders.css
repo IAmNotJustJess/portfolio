@@ -86,6 +86,22 @@
     color: transparent;
 }
 
+#project13 > .projectArticleLeft > h1 {
+    background: linear-gradient(1deg in oklab, hsla(25, 46%, 65%, 0.9), hsla(353, 16%, 59%, 0.9));
+    filter: drop-shadow(2px 2px 1px hsla(25, 46%, 65%, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#project14 > .projectArticleLeft > h1 {
+    background: linear-gradient(1deg in oklab, hsla(14, 14%, 43%, 0.9), hsla(274, 20%, 68%, 0.9));
+    filter: drop-shadow(2px 2px 1px hsla(14, 14%, 43%, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 #project15 > .projectArticleLeft > h1 {
     background: linear-gradient(1deg in oklab, hsla(353, 13%, 34%, 0.9), hsla(180, 3%, 32%, 0.9));
     filter: drop-shadow(2px 2px 1px hsla(353, 13%, 34%, 0.3));
