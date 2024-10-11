@@ -109,3 +109,11 @@
     background-clip: text;
     color: transparent;
 }
+
+#project16 > .projectArticleLeft > h1 {
+    background: linear-gradient(1deg in oklab, hsla(24, 27%, 40%, 0.9), hsla(27, 100%, 76%, 0.9));
+    filter: drop-shadow(2px 2px 1px hsla(24, 27%, 40%, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
