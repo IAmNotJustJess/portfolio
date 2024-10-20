@@ -23,8 +23,8 @@
 }
 
 #project4 > .projectArticleLeft > h1 {
-    background: linear-gradient(1deg in oklab, hsl(21, 43%, 56%, 0.9), hsla(332, 7%, 37%, 0.9));
-    filter: drop-shadow(2px 2px 1px hsla(21, 43%, 56%, 0.3));
+    background: linear-gradient(1deg in oklab, hsl(225, 25%, 9%, 0.9), hsla(192, 37%, 24%, 0.9));
+    filter: drop-shadow(2px 2px 1px hsla(225, 25%, 9%, 0.3));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -33,6 +33,14 @@
 #project5 > .projectArticleLeft > h1 {
     background: linear-gradient(1deg in oklab, hsla(107, 91%, 61%, 0.9), hsla(51, 83%, 76%, 0.9));
     filter: drop-shadow(2px 2px 1px hsla(107, 91%, 61%, 0.3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#project6 > .projectArticleLeft > h1 {
+    background: linear-gradient(1deg in oklab, hsla(28, 26%, 27%, 0.9), hsla(130, 34%, 40%, 0.9));
+    filter: drop-shadow(2px 2px 1px hsla(28, 26%, 27%, 0.3));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
